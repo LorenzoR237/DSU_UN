@@ -89,8 +89,16 @@ target/
 # Exclude virtual environment
 .venv/
 
-# Exclude trained models
-/models/
+# Data files (keep folder structure, ignore contents)
+data/raw/*
+data/external/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/external/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
 
-# exclude data from source control by default
-# /data/
+# Trained models (keep folder, ignore contents)
+models/*
+!models/.gitkeep
