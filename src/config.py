@@ -13,8 +13,8 @@ FIGURES = PROJECT_ROOT / "reports" / "figures"
 
 # --- Raw file locations (single source of truth) -------------------------
 LICENSES_RAW = DATA_RAW / "Delaware_Business_Licenses.csv"
-# SBA_7A_RAW = DATA_RAW / "foia-7a-fy2020-present-as-of-251231.csv"
-# SBA_504_RAW = DATA_RAW / "foia-504-fy2010-present-asof-250930.csv"
+SBA_7A_RAW = DATA_RAW / "foia-7a-fy2020-present-as-of-251231.csv"
+SBA_504_RAW = DATA_RAW / "foia-504-fy2010-present-asof-251231.csv"
 BUDGET_RAW = DATA_RAW / "Annual_Appropriated_Expense_and_Positions_Budgets.csv"
 SBF_RAW = DATA_RAW / "Small_Business_Focus.csv"
 
