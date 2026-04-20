@@ -17,9 +17,12 @@ SBA_7A_RAW = DATA_RAW / "foia-7a-fy2020-present-as-of-251231.csv"
 SBA_504_RAW = DATA_RAW / "foia-504-fy2010-present-asof-251231.csv"
 BUDGET_RAW = DATA_RAW / "Annual_Appropriated_Expense_and_Positions_Budgets.csv"
 SBF_RAW = DATA_RAW / "Small_Business_Focus.csv"
+LENDERS_CSV = REFERENCES / "ssbci_lender_branches.csv"
 
-# CENSUS_RAW = DATA_EXTERNAL / "census" / "de_acs_2023.csv"
-# TRACTS_SHP = DATA_EXTERNAL / "boundaries" / "delaware_tracts.shp"
+CENSUS_RAW = DATA_EXTERNAL / "census" / "ACSDP5Y2024.DP05-Data.csv"
+CENSUS_META = DATA_EXTERNAL / "census" / "ACSDP5Y2024.DP05-Column-Metadata.csv"
+
+TRACTS_SHP = DATA_EXTERNAL / "boundaries" / "tl_2024_10_tract.shp"
 
 # --- Analysis parameters --------------------------------------------------
 TARGET_STATE = "DE"
